@@ -5,7 +5,13 @@ This repository provides a simple Docker based environment with a pre-created
 Django project named `backend`. The compose file also includes a PostgreSQL
 container for local development.
 =======
+
+This repository provides a simple Docker based environment with a pre-created
+Django project named `backend`. The compose file also includes a PostgreSQL
+container for local development.
+=======
 This repository provides a minimal Docker setup for creating new Django projects.
+
 
 
 ## Setup
@@ -14,6 +20,8 @@ This repository provides a minimal Docker setup for creating new Django projects
    ```
    docker-compose build
    ```
+
+=======
 
 2. Start the stack:
    ```
@@ -24,9 +32,12 @@ This repository provides a minimal Docker setup for creating new Django projects
    ```
    docker-compose run --rm web bash
    ```
+
+=======
 =======
 2. Start the container:
    ```
    docker-compose run --rm web
    ```
    This opens a bash shell with Django installed.
+
