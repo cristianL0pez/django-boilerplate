@@ -6,7 +6,6 @@ services:
     volumes:
       - .:/usr/src/app
     command: bash
-
     depends_on:
       - db
     environment:
@@ -28,3 +27,4 @@ services:
 volumes:
   postgres_data:
 
+=======
